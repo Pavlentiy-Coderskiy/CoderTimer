@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Разминка</title>
+</head>
+
+<body>
+	<div class="timer">
+		<h1 id="timer">01:30:00</h1>
+	</div>
+	<button class="stop_start" id="start">►</button>
+	<button class="stop_start" onclick="pauseTimer()">| |</button>
+	<div>
+		<button class="button" onclick="end()" id="end">Закончить сессию</button>
+		<button class="button" id="open-modal-btn">Досрочная разминка</button>
+
+	</div>
+	<div class="container">
+	</div>
+
+	<div class="modal" id="my-modal">
+		<div class="modal__box">
+			<button class="modal__close-btn" id="close-my-modal-btn">
+				<svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+						fill="#333333" />
+					<path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+				</svg>
+			</button>
+			<h2>Мое модальное окно</h2>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, obcaecati, vero, illum ipsa libero labore
+				facilis quo iste numquam deserunt totam reprehenderit quod.</p>
+
+			<p>
+				fee11
+			</p>
+		</div>
+	</div>
+
+	<div id="printBlock1"></div>
+	<div id="printBlock2"></div>
+	<div id="printBlock3"></div>
+	<script src="script.js">
+	</script>
+
+</body>
+
+</html>
